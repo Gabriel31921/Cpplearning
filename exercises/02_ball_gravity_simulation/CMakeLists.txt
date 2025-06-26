@@ -1,1 +1,1 @@
-add_executable(ex_01_basics main.cpp)
+add_executable(ex_02_gravity main.cpp)
