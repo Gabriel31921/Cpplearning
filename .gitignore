@@ -1,0 +1,9 @@
+# CLion/JetBrains
+.idea/
+
+# Local binaries
+*.exe
+
+# Logs
+logs/
+*.log
