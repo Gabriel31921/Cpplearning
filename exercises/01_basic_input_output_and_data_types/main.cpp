@@ -44,4 +44,6 @@ int main() {
     double y{obtain_number()};
     char op{obtain_operator()};
     check_operator(x, y, op);
+
+    return 0;
 }

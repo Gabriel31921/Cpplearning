@@ -1,20 +1,24 @@
-Problem:
+**Problem:**
 
-Write the following program: 
-The user is asked to enter 2 floating point numbers (use doubles). 
-The user is then asked to enter one of the following mathematical symbols: +, -, *, or /. 
-The program computes the answer on the two numbers the user entered and prints the results. 
-If the user enters an invalid symbol, the program should print nothing.
+Write a short program to simulate a ball being dropped off of a tower. 
+To start, the user should be asked for the height of the tower in meters. 
+Assume normal gravity (9.8 m/s2), and that the ball has no initial velocity (the ball is not moving to start). 
+Have the program output the height of the ball above the ground after 0, 1, 2, 3, 4, and 5 seconds. 
+The ball should not go underneath the ground (height 0).
 
-Solution:
+Use a function to calculate the height of the ball after x seconds. 
+The function can calculate how far the ball has fallen after x seconds using the following formula: 
+distance fallen = gravity_constant * x_seconds2 / 2
 
-We notice that we need three inputs for the desired result. 
-First I design a function in order to get the numbers from the user; *obtain_number()*.
-Then I design a function to get the operator; *obtain_operator()*. 
-Important to note, the type of the functions are *double* and *char* respectively.
-Then I have to know which operator has inserted the user, for that I use *check_operator()*.
-This function checks the four basic operators and prints the result, it's a void function.
-This function takes three arguments, two doubles and one char, two numbers and one op.
+**Solution:**
 
-The hardest part here was to notice how to check for the operators,
-in my case, with four if/else-if statements.
+We have to design a program that simulates the falling of a ball from a tower.
+The tower is *m* meters tall, that is an input and will require its own function.
+The function *meters_tower()* doesn't need parameters and returns a double.
+Then the ball starts to fall, and as we only need to the height at *t*, we will do discrete measurements.
+With the formula *gravity times seconds squared over 2* we will measure discrete distances.
+Then, we will subtract from the height of the tower these distances, making sure we are always above 0 meters.
+And then we will output the height of the ball each second.
+
+The solution would be better with loops, but this exercise is form chapter 4 of learn.cpp, before loops.
+
