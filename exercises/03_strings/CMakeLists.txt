@@ -1,0 +1,1 @@
+add_executable(ex_03_strings main.cpp)
