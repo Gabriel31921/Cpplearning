@@ -1,0 +1,1 @@
+add_executable(ex_04_stringview main.cpp)
