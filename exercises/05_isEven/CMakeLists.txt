@@ -1,0 +1,1 @@
+add_executable(ex_05_isEven main.cpp)
