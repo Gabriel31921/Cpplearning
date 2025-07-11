@@ -1,0 +1,1 @@
+add_executable(ex_07_bit_manipulation main.cpp)
