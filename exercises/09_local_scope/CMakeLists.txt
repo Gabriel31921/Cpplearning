@@ -1,0 +1,1 @@
+add_executable(ex_09_local_scope main.cpp)
