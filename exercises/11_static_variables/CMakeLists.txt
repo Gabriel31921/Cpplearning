@@ -1,0 +1,1 @@
+add_executable(ex_11_static_variables main.cpp)
