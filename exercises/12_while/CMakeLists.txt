@@ -1,0 +1,1 @@
+add_executable(ex_12_while main.cpp)
