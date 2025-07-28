@@ -33,4 +33,6 @@ int main() {
             ball_height(tower_height, time) << " meters." << "\n";
     }
     std::cout << "The ball has reached the ground!" << "\n";
+
+    return 0;
 }
