@@ -5,7 +5,7 @@
 #include <iostream>
 
 /*
- * Simulate a game of Hi-Lo
+ * Write a program that simulates a ball falling of a tower. The program should output the ball height every second.
  */
 
 int get_value() {

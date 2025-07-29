@@ -1,0 +1,1 @@
+add_executable(ex_13_Hi_Lo main.cpp)
