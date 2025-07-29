@@ -1,0 +1,1 @@
+add_executable(ex_15 main.cpp)

@@ -1,1 +1,1 @@
-add_executable(ex_13_Hi_Lo main.cpp)
+add_executable(ex_14_Hi_Lo_mod main.cpp)
